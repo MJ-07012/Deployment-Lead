@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marlon Jordan | Deployment Lead Prospect for Axion Ray</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc;
+            /* Subtle background pattern */
+            background-image: radial-gradient(#d1d5db 0.5px, transparent 0.5px);
+            background-size: 15px 15px;
+        }
+        .nav-link {
+            transition: color 0.3s ease;
+        }
+        .nav-link:hover {
+            color: #0ea5e9; /* sky-500 */
+        }
+        .alignment-card {
+            transition: all 0.3s ease-in-out;
+        }
+        .alignment-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+            border-color: #0ea5e9;
+        }
+        .experience-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.7s ease-in-out;
+        }
+    </style>
+</head>
+<body class="text-slate-700">
+
+    <!-- Header & Navigation -->
+    <header class="bg-white/80 backdrop-blur-lg sticky top-0 z-50 shadow-sm">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-slate-800">Marlon Jordan</a>
+            <div class="hidden md:flex space-x-8">
+                <a href="#home" class="nav-link font-medium">Home</a>
+                <a href="#alignment" class="nav-link font-medium">Alignment</a>
+                <a href="#experience" class="nav-link font-medium">Experience</a>
+                <a href="#certifications" class="nav-link font-medium">Certifications</a>
+                <a href="#skills" class="nav-link font-medium">Skills</a>
+            </div>
+            <button id="mobile-menu-button" class="md:hidden p-2">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                </svg>
+            </button>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden px-6 pb-4">
+            <a href="#home" class="block py-2 nav-link">Home</a>
+            <a href="#alignment" class="block py-2 nav-link">Alignment</a>
+            <a href="#experience" class="block py-2 nav-link">Experience</a>
+            <a href="#certifications" class="block py-2 nav-link">Certifications</a>
+            <a href="#skills" class="block py-2 nav-link">Skills</a>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-6 py-12">
+
+        <!-- Home/Intro Section -->
+        <section id="home" class="text-center py-16">
+            <h1 class="text-4xl md:text-5xl font-bold text-slate-800 mb-4">Marlon Jordan</h1>
+            <p class="text-xl text-slate-600 mb-8 max-w-3xl mx-auto">An operations professional with a 10-year record of leading successful platform deployments and technical integrations for enterprise clients.</p>
+            <div class="flex justify-center items-center space-x-4">
+                <a href="https://www.linkedin.com/in/mj2117" target="_blank" class="bg-sky-500 text-white font-bold py-3 px-6 rounded-lg shadow-md hover:bg-sky-600 transition-colors duration-300">
+                    View LinkedIn Profile
+                </a>
+                <a href="#alignment" class="bg-slate-700 text-white font-bold py-3 px-6 rounded-lg shadow-md hover:bg-slate-800 transition-colors duration-300">
+                    See Role Alignment
+                </a>
+            </div>
+        </section>
+
+        <!-- Alignment Comparison Section -->
+        <section id="alignment" class="py-20">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-slate-800">Alignment with Axion Ray's Deployment Lead Role</h2>
+                <p class="mt-4 text-lg text-slate-600 max-w-3xl mx-auto">A direct comparison of Axion Ray's requirements against my demonstrated experience.</p>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div class="alignment-card bg-white p-6 rounded-xl border-2 border-transparent shadow-lg">
+                    <h3 class="font-bold text-sky-600 mb-2">Axion Ray Needs:</h3>
+                    <p class="font-semibold text-slate-800 mb-4">A lead for customer interactions and platform deployments.</p>
+                    <hr class="my-4">
+                    <h3 class="font-bold text-emerald-600 mb-2">My Experience:</h3>
+                    <p class="text-slate-600">Served as the primary point of contact for enterprise customers, leading full-cycle platform deployments for up to 8,000 users from planning to successful adoption.</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="alignment-card bg-white p-6 rounded-xl border-2 border-transparent shadow-lg">
+                    <h3 class="font-bold text-sky-600 mb-2">Axion Ray Needs:</h3>
+                    <p class="font-semibold text-slate-800 mb-4">Someone to drive executive readouts and show platform value.</p>
+                    <hr class="my-4">
+                    <h3 class="font-bold text-emerald-600 mb-2">My Experience:</h3>
+                    <p class="text-slate-600">Advocated for customer-centric product improvements by analyzing complex technical issues and presenting long-term solutions to executive stakeholders.</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="alignment-card bg-white p-6 rounded-xl border-2 border-transparent shadow-lg">
+                    <h3 class="font-bold text-sky-600 mb-2">Axion Ray Needs:</h3>
+                    <p class="font-semibold text-slate-800 mb-4">Ability to map customer processes for seamless integration.</p>
+                    <hr class="my-4">
+                    <h3 class="font-bold text-emerald-600 mb-2">My Experience:</h3>
+                    <p class="text-slate-600">Conducted detailed reviews of operational workflows to identify automation opportunities, improving the efficiency of internal data processes for seamless integration.</p>
+                </div>
+                <!-- Card 4 -->
+                <div class="alignment-card bg-white p-6 rounded-xl border-2 border-transparent shadow-lg">
+                    <h3 class="font-bold text-sky-600 mb-2">Axion Ray Needs:</h3>
+                    <p class="font-semibold text-slate-800 mb-4">Collaboration with sales and product based on customer feedback.</p>
+                    <hr class="my-4">
+                    <h3 class="font-bold text-emerald-600 mb-2">My Experience:</h3>
+                    <p class="text-slate-600">Analyzed customer usage data and feedback to identify improvement opportunities, collaborating with product development to implement new features based on customer insights.</p>
+                </div>
+                <!-- Card 5 -->
+                <div class="alignment-card bg-white p-6 rounded-xl border-2 border-transparent shadow-lg">
+                    <h3 class="font-bold text-sky-600 mb-2">Axion Ray Needs:</h3>
+                    <p class="font-semibold text-slate-800 mb-4">Deriving insights from analytics and interest in AI models.</p>
+                    <hr class="my-4">
+                    <h3 class="font-bold text-emerald-600 mb-2">My Experience:</h3>
+                    <p class="text-slate-600">Derived insights from analytics on recurring incidents to re-engineer support processes. Completed Google AI Essentials certification to understand and drive impact from AI models.</p>
+                </div>
+                <!-- Card 6 -->
+                <div class="alignment-card bg-white p-6 rounded-xl border-2 border-transparent shadow-lg">
+                    <h3 class="font-bold text-sky-600 mb-2">Axion Ray Needs:</h3>
+                    <p class="font-semibold text-slate-800 mb-4">Provide training and support for successful platform adoption.</p>
+                    <hr class="my-4">
+                    <h3 class="font-bold text-emerald-600 mb-2">My Experience:</h3>
+                    <p class="text-slate-600">Developed and delivered customer-facing training materials and support documentation, ensuring the successful adoption and usage of platforms by thousands of new users.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Professional Experience Section -->
+        <section id="experience" class="py-20">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-slate-800">Professional Experience</h2>
+                <p class="mt-4 text-lg text-slate-600">Click each role to see key accomplishments.</p>
+            </div>
+            <div class="max-w-4xl mx-auto space-y-4">
+                <!-- Job 1 -->
+                <div class="bg-white rounded-lg shadow-md">
+                    <button class="experience-toggle w-full text-left p-6">
+                        <div class="flex justify-between items-center">
+                            <div>
+                                <h3 class="text-xl font-bold text-slate-800">Product Operations Specialist</h3>
+                                <p class="text-md text-slate-500">Bloomberg LP | New York, NY</p>
+                            </div>
+                            <div class="text-right">
+                                <p class="font-semibold text-sky-600">Aug 2021 - Present</p>
+                                <svg class="w-6 h-6 transform transition-transform duration-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                            </div>
+                        </div>
+                    </button>
+                    <div class="experience-content">
+                        <ul class="list-disc list-inside p-6 pt-0 text-slate-600 space-y-2">
+                            <li>Drove platform deployment by mapping customer operational workflows and integrating new technology, enabling enterprise users to achieve over $150,000 in annual efficiencies.</li>
+                            <li>Served as the primary point of contact for enterprise customers, providing guidance on technical issues and collaborating with engineering to resolve root-cause problems, ensuring platform stability.</li>
+                            <li>Analyzed customer usage data and feedback to identify opportunities for improvement, collaborating with product development to implement new features based on customer insights.</li>
+                            <li>Conducted reviews of operational workflows to identify automation opportunities, reducing friction points and improving the efficiency of internal data processes.</li>
+                            <li>Developed and delivered customer-facing training materials and support documentation, ensuring the successful adoption and usage of the platform by new and existing users.</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Job 2 -->
+                <div class="bg-white rounded-lg shadow-md">
+                    <button class="experience-toggle w-full text-left p-6">
+                        <div class="flex justify-between items-center">
+                           <div>
+                                <h3 class="text-xl font-bold text-slate-800">Technical Support Lead Executive</h3>
+                                <p class="text-md text-slate-500">Bloomberg LP | New York, NY</p>
+                            </div>
+                            <div class="text-right">
+                                <p class="font-semibold text-sky-600">May 2017 - Aug 2021</p>
+                                <svg class="w-6 h-6 transform transition-transform duration-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                            </div>
+                        </div>
+                    </button>
+                    <div class="experience-content">
+                        <ul class="list-disc list-inside p-6 pt-0 text-slate-600 space-y-2">
+                            <li>Advocated for customer-centric product improvements by analyzing complex technical issues and presenting long-term solutions to executive stakeholders.</li>
+                            <li>Acted as the primary technical point of contact for critical systems, proactively monitoring performance to resolve potential issues before they impacted users.</li>
+                            <li>Led a full-cycle platform deployment for 8,000 users, from planning and documentation to user training and support, resulting in high adoption rates and minimal post-launch issues.</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Job 3 -->
+                <div class="bg-white rounded-lg shadow-md">
+                    <button class="experience-toggle w-full text-left p-6">
+                        <div class="flex justify-between items-center">
+                            <div>
+                                <h3 class="text-xl font-bold text-slate-800">Senior IT Support Engineer</h3>
+                                <p class="text-md text-slate-500">Bloomberg LP | New York, NY</p>
+                            </div>
+                            <div class="text-right">
+                                <p class="font-semibold text-sky-600">May 2013 - May 2017</p>
+                                <svg class="w-6 h-6 transform transition-transform duration-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                            </div>
+                        </div>
+                    </button>
+                    <div class="experience-content">
+                        <ul class="list-disc list-inside p-6 pt-0 text-slate-600 space-y-2">
+                            <li>Leveraged problem-solving and technical skills to resolve complex integration issues for an 18,000-person user base, ensuring system stability and seamless operations.</li>
+                            <li>Derived insights from analytics on recurring incidents to re-engineer support processes, improving resolution efficiency and customer satisfaction.</li>
+                            <li>Collaborated with system administrators to upgrade self-service IT tools, leading to a significant reduction in support tickets and enabling over 5,000 end-users to independently resolve common technical issues.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Certifications Section -->
+        <section id="certifications" class="py-20 bg-slate-50 rounded-xl">
+             <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-slate-800">Certifications & Strategic Value</h2>
+                <p class="mt-4 text-lg text-slate-600">How my credentials translate to success in a deployment role.</p>
+            </div>
+            <div class="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold text-slate-800 mb-2">Project Management Professional (PMP)</h3>
+                    <p class="text-slate-600">This certification validates my ability to lead and manage complex projects, a core function of a Deployment Lead. It ensures I can handle the entire deployment lifecycle, from initial planning and stakeholder engagement (like with your enterprise customers) to execution and successful delivery, as I did when leading a technology launch for 8,000 users.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold text-slate-800 mb-2">Certified Scrum Product Owner (CSPO)</h3>
+                    <p class="text-slate-600">The CSPO certification gives me deep insight into the product development process from an Agile perspective. This is crucial for collaborating effectively with Axion Ray's product and engineering teams. It allows me to translate customer feedback into actionable product improvements, ensuring the AI platform evolves to meet user needs.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold text-slate-800 mb-2">ITIL v4 Foundation</h3>
+                    <p class="text-slate-600">ITIL provides a framework for delivering high-quality IT services, directly applicable to managing platform deployments and ongoing customer support. It equips me to map customer processes and ensure the Axion Ray platform integrates seamlessly and reliably into their operations, minimizing disruption and maximizing value.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold text-slate-800 mb-2">Google AI Essentials</h3>
+                    <p class="text-slate-600">This certification provides foundational knowledge of AI concepts and applications. For Axion Ray, this means I can speak credibly about your AI-powered platform, understand its potential impact for manufacturers, and help customers derive meaningful insights from their data using your technology, directly addressing a key requirement of the role.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="py-20">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-slate-800">Core Competencies</h2>
+                <p class="mt-4 text-lg text-slate-600">A collection of my professional capabilities.</p>
+            </div>
+            <div class="max-w-5xl mx-auto">
+                <div class="mb-8">
+                    <h3 class="text-2xl font-semibold text-slate-700 mb-4 text-center">Deployment & Customer Success</h3>
+                    <div class="flex flex-wrap justify-center gap-3">
+                        <span class="bg-sky-100 text-sky-800 text-md font-medium px-4 py-2 rounded-full">Stakeholder Collaboration</span>
+                        <span class="bg-sky-100 text-sky-800 text-md font-medium px-4 py-2 rounded-full">Customer Onboarding</span>
+                        <span class="bg-sky-100 text-sky-800 text-md font-medium px-4 py-2 rounded-full">Process Mapping</span>
+                        <span class="bg-sky-100 text-sky-800 text-md font-medium px-4 py-2 rounded-full">Requirements Gathering</span>
+                        <span class="bg-sky-100 text-sky-800 text-md font-medium px-4 py-2 rounded-full">User Training & Support</span>
+                        <span class="bg-sky-100 text-sky-800 text-md font-medium px-4 py-2 rounded-full">Risk Mitigation</span>
+                    </div>
+                </div>
+                <div class="mb-8">
+                    <h3 class="text-2xl font-semibold text-slate-700 mb-4 text-center">Technical & Analytical</h3>
+                    <div class="flex flex-wrap justify-center gap-3">
+                        <span class="bg-emerald-100 text-emerald-800 text-md font-medium px-4 py-2 rounded-full">Data Exploration</span>
+                        <span class="bg-emerald-100 text-emerald-800 text-md font-medium px-4 py-2 rounded-full">API Troubleshooting</span>
+                        <span class="bg-emerald-100 text-emerald-800 text-md font-medium px-4 py-2 rounded-full">SQL (Basic)</span>
+                        <span class="bg-emerald-100 text-emerald-800 text-md font-medium px-4 py-2 rounded-full">Jira</span>
+                        <span class="bg-emerald-100 text-emerald-800 text-md font-medium px-4 py-2 rounded-full">Miro</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-semibold text-slate-700 mb-4 text-center">Methodologies</h3>
+                    <div class="flex flex-wrap justify-center gap-3">
+                        <span class="bg-indigo-100 text-indigo-800 text-md font-medium px-4 py-2 rounded-full">Agile</span>
+                        <span class="bg-indigo-100 text-indigo-800 text-md font-medium px-4 py-2 rounded-full">Scrum</span>
+                        <span class="bg-indigo-100 text-indigo-800 text-md font-medium px-4 py-2 rounded-full">ITIL</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-800 text-white mt-20">
+        <div class="container mx-auto px-6 py-8 text-center">
+            <h3 class="text-2xl font-bold mb-4">Contact Me</h3>
+            <div class="flex justify-center items-center space-x-6">
+                <a href="mailto:Marlon.Jordan21@gmail.com" class="flex items-center space-x-2 hover:text-sky-400 transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
+                    <span>Marlon.Jordan21@gmail.com</span>
+                </a>
+                <span class="text-slate-500">|</span>
+                <div class="flex items-center space-x-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
+                    <span>(646) 249-6025</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Experience section accordion
+        const experienceToggles = document.querySelectorAll('.experience-toggle');
+        experienceToggles.forEach(toggle => {
+            toggle.addEventListener('click', () => {
+                const content = toggle.nextElementSibling;
+                const icon = toggle.querySelector('svg');
+
+                if (content.style.maxHeight) {
+                    content.style.maxHeight = null;
+                    icon.style.transform = 'rotate(0deg)';
+                } else {
+                    // Close other open accordions
+                    document.querySelectorAll('.experience-content').forEach(item => {
+                        if(item.style.maxHeight){
+                           item.style.maxHeight = null;
+                           item.previousElementSibling.querySelector('svg').style.transform = 'rotate(0deg)';
+                        }
+                    });
+                    content.style.maxHeight = content.scrollHeight + "px";
+                    icon.style.transform = 'rotate(180deg)';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
